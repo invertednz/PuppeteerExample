@@ -12,3 +12,18 @@ const puppeteer = require('puppeteer');
 test('will be ran', () => {
   expect(1 / 0).toBe(Infinity);
 });
+
+test('will be ran 2', () => {
+  expect(1 / 0).toBe(Infinity);
+});
+
+
+test('will be ran 3', () => {
+  expect(1 / 0).toBe(Infinity);
+});
+
+
+test('will be ran 4', () => {
+  expect(1 / 0).toBe(Infinity);
+});
+
