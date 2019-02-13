@@ -8,3 +8,7 @@ const puppeteer = require('puppeteer');
 
   await browser.close();
 })();
+
+test('will be ran', () => {
+  expect(1 / 0).toBe(Infinity);
+});
